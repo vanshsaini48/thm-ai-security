@@ -9,6 +9,7 @@ This repository contains my notes, summaries, exercises, and writeups from the *
 - 🔐 [LLM Security](./llm-security/README.md)
 - 🤖 [AI Threat Modelling](./ai-threat-modelling/README.md)
 - 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance/README.md)
+- 🛡️ [AI Threat Modelling Assessment](./ai-threat-modelling-assessment/README.md)
 
 ---
 
@@ -31,6 +32,10 @@ This repository contains my notes, summaries, exercises, and writeups from the *
 - AI Attack Surface Mapping
 - SIEM Detection for AI Reconnaissance
 - AI Security Framework Mapping
+- AI Security Assessments
+- AI Attack Simulation
+- Sensitive Data Leakage
+- AI System Exploitation Techniques
 
 ---
 
@@ -44,6 +49,7 @@ To build practical knowledge of:
 - Real-world AI attack surfaces
 - Defensive security practices for AI systems
 - AI security monitoring and detection
+- Practical AI security assessments
 
 ---
 
@@ -63,6 +69,7 @@ To build practical knowledge of:
 - Jupyter Notebook
 - Prometheus
 - MITRE ATLAS
+- Burp Suite
 
 ---
 
