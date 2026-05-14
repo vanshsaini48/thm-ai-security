@@ -1,81 +1,149 @@
 # 🧠 TryHackMe AI Security Path
 
-This repository contains my notes, summaries, exercises, and writeups from the **TryHackMe AI Security Path**.
+This repository contains my notes, exercises, walkthroughs, and summaries from the **TryHackMe AI Security Path**.
+
+The focus of this path is understanding:
+- AI/LLM security concepts
+- Prompt injection attacks
+- AI threat modelling
+- AI reconnaissance
+- AI attack surfaces
+- Defensive security techniques for AI systems
 
 ---
 
-## 📂 Rooms Completed
+# 📂 Rooms Completed
 
-- 🔐 [LLM Security](./llm-security/README.md)
-- 🤖 [AI Threat Modelling](./ai-threat-modelling/README.md)
-- 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance/README.md)
-- 🛡️ [AI Threat Modelling Assessment](./ai-threat-modelling-assessment/README.md)
+- 🔐 [Prompt Injection](./prompt-injection)
+- 🔐 [LLM Security](./llm-security)
+- 🤖 [AI Threat Modelling](./ai-threat-modelling)
+- 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance)
+- 🛡️ [AI Threat Modelling Assessment](./ai-threat-modelling-assessment)
 
 ---
 
-## 🎯 Topics Covered
+# 🎯 Topics Covered
 
-- LLM Security Fundamentals
+## LLM & AI Security
 - Prompt Injection
-- AI Threat Modelling
+- Indirect Prompt Injection
+- LLM Security Fundamentals
+- Context Window Security
+- System Prompt Leakage
+- AI Agent Security
+- RAG Security Risks
+- AI Safety Bypass Techniques
+
+---
+
+## Threat Modelling
 - STRIDE for AI Systems
 - MITRE ATLAS
 - OWASP LLM Top 10
-- Data Poisoning
-- Model Extraction
-- RAG Security Risks
-- AI Supply Chain Security
-- AI Infrastructure Reconnaissance
+- AI Attack Surface Analysis
+- Risk Assessment
+
+---
+
+## AI Reconnaissance
+- AI Infrastructure Enumeration
 - MLflow Enumeration
 - AI Service Fingerprinting
 - Vector Database Enumeration
-- AI Attack Surface Mapping
-- SIEM Detection for AI Reconnaissance
-- AI Security Framework Mapping
-- AI Security Assessments
-- AI Attack Simulation
-- Sensitive Data Leakage
-- AI System Exploitation Techniques
+- Kubeflow Reconnaissance
+- Triton Inference Server Enumeration
 
 ---
 
-## 🚀 Goal
-
-To build practical knowledge of:
-
-- AI/LLM security concepts
-- AI infrastructure reconnaissance
-- Threat modelling methodologies
-- Real-world AI attack surfaces
-- Defensive security practices for AI systems
-- AI security monitoring and detection
-- Practical AI security assessments
+## AI Security Risks
+- Data Poisoning
+- Model Extraction
+- Prompt Leakage
+- Tool Injection Attacks
+- Multi-turn Prompt Shaping
+- Zero-Click AI Exploits
 
 ---
 
-## 🛠️ Tools & Technologies
+## Detection & Defense
+- Prompt Hardening
+- Context Isolation
+- Input Sanitisation
+- AI Monitoring Techniques
+- Secure AI System Design
 
+---
+
+# 🛠️ Tools & Technologies
+
+## Recon & Enumeration
 - Nmap
-- Curl
 - FFUF
 - Feroxbuster
+- Curl
 - grpcurl
+
+---
+
+## AI Infrastructure
 - MLflow
 - Triton Inference Server
 - TorchServe
 - Kubeflow
 - Qdrant
 - Weaviate
-- Jupyter Notebook
-- Prometheus
-- MITRE ATLAS
-- Burp Suite
 
 ---
 
-## 📌 Notes
+## Security & Analysis
+- Burp Suite
+- MITRE ATLAS
+- Prometheus
+- Jupyter Notebook
 
-- All writeups are for educational purposes only
+---
+
+# 📘 Repository Contents
+
+This repository includes:
+- Detailed room notes
+- Task summaries
+- Exercises & answers
+- AI attack examples
+- Prompt injection demonstrations
+- Reconnaissance techniques
+- Security mitigations
+- Screenshots for reference
+
+---
+
+# 🚀 Goal
+
+The goal of this repository is to build practical knowledge in:
+- AI security
+- LLM exploitation techniques
+- AI infrastructure security
+- Threat modelling
+- AI attack detection
+- Secure AI application design
+
+---
+
+# 📌 Notes
+
+- All content is for educational purposes only
 - Based on TryHackMe labs and exercises
-- Screenshots included for learning reference
-- Focused on practical AI security concepts and attack surface analysis
+- Focused on practical AI security learning
+- Notes are simplified for quick revision
+- Screenshots included where relevant
+
+---
+
+# ⚠️ Disclaimer
+
+These notes are intended for:
+- Learning
+- Research
+- Defensive security education
+
+Do not use any techniques discussed here against systems without proper authorisation.
