@@ -9,6 +9,7 @@ The focus of this path is understanding:
 - AI reconnaissance
 - AI attack surfaces
 - Defensive security techniques for AI systems
+- AI jailbreaking techniques
 
 ---
 
@@ -19,6 +20,7 @@ The focus of this path is understanding:
 - 🤖 [AI Threat Modelling](./ai-threat-modelling)
 - 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance)
 - 🛡️ [AI Threat Modelling Assessment](./ai-threat-modelling-assessment)
+- 🚨 [Jailbreaking](./jailbreaking)
 
 ---
 
@@ -33,6 +35,10 @@ The focus of this path is understanding:
 - AI Agent Security
 - RAG Security Risks
 - AI Safety Bypass Techniques
+- AI Jailbreaking
+- Multi-turn Jailbreaking
+- DAN (Do Anything Now)
+- Prompt Conditioning
 
 ---
 
@@ -62,6 +68,9 @@ The focus of this path is understanding:
 - Tool Injection Attacks
 - Multi-turn Prompt Shaping
 - Zero-Click AI Exploits
+- Roleplay-based Jailbreaking
+- Instruction Sandwiching
+- Prompt Obfuscation
 
 ---
 
@@ -71,6 +80,8 @@ The focus of this path is understanding:
 - Input Sanitisation
 - AI Monitoring Techniques
 - Secure AI System Design
+- AI Safety Alignment
+- RLHF Security Concepts
 
 ---
 
@@ -111,6 +122,7 @@ This repository includes:
 - Exercises & answers
 - AI attack examples
 - Prompt injection demonstrations
+- Jailbreaking techniques
 - Reconnaissance techniques
 - Security mitigations
 - Screenshots for reference
@@ -126,6 +138,7 @@ The goal of this repository is to build practical knowledge in:
 - Threat modelling
 - AI attack detection
 - Secure AI application design
+- AI safety testing
 
 ---
 
