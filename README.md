@@ -17,6 +17,7 @@ The path focuses on understanding:
 
 - 🔐 [Prompt Injection](./prompt-injection)
 - 🛡️ [Prompt Defense](./prompt-defense)
+- 🏎️ [LLMborghini Challenge](./llmborghini-challenge)
 - 🔐 [LLM Security](./llm-security)
 - 🤖 [AI Threat Modelling](./ai-threat-modelling)
 - 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance)
@@ -46,6 +47,12 @@ The path focuses on understanding:
 - Prompt Obfuscation
 - Guardrails & Output Filtering
 - Least Privilege for AI Systems
+- Developer Mode Jailbreaking
+- Authority Impersonation
+- AI Assistant Exploitation
+- Role Override Attacks
+- Instruction Replacement Attacks
+- AI Context Leakage
 
 ---
 
@@ -81,6 +88,9 @@ The path focuses on understanding:
 - Instruction Sandwiching
 - Indirect Injection
 - Prompt Obfuscation
+- Prompt Injection via Context Manipulation
+- AI Data Leakage
+- Hidden Instruction Abuse
 
 ---
 
@@ -97,6 +107,9 @@ The path focuses on understanding:
 - Defence-in-Depth
 - Guardrails
 - Deployment Controls
+- Least Privilege
+- System Prompt Hardening
+- Input & Output Guardrails
 
 ---
 
