@@ -2,14 +2,14 @@
 
 This repository contains my notes, walkthroughs, exercises, and summaries from the **TryHackMe AI Security Path**.
 
-The path focuses on understanding:
-- AI & LLM security concepts
+The path focuses on:
+- AI & LLM security
 - Prompt injection attacks
 - AI threat modelling
 - AI reconnaissance
-- AI attack surfaces
 - Jailbreaking techniques
-- Defensive security for AI systems
+- Defensive AI security
+- AI exploitation & mitigation
 
 ---
 
@@ -18,6 +18,7 @@ The path focuses on understanding:
 - 🔐 [Prompt Injection](./prompt-injection)
 - 🛡️ [Prompt Defense](./prompt-defense)
 - 🏎️ [LLMborghini Challenge](./llmborghini-challenge)
+- 🐇 [WhiteRabbit](./whiterabbit)
 - 🔐 [LLM Security](./llm-security)
 - 🤖 [AI Threat Modelling](./ai-threat-modelling)
 - 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance)
@@ -32,27 +33,23 @@ The path focuses on understanding:
 
 - Prompt Injection
 - Indirect Prompt Injection
-- Prompt Defense
-- LLM Security Fundamentals
-- Context Window Security
+- Prompt Hardening & Defense
+- AI Jailbreaking
+- Multi-turn Prompt Manipulation
+- Prompt Obfuscation
+- Roleplay-based Attacks
+- Context Leakage
 - System Prompt Leakage
 - AI Agent Security
 - RAG Security Risks
-- AI Safety Bypass Techniques
-- AI Jailbreaking
-- Multi-turn Jailbreaking
-- DAN (Do Anything Now)
-- Prompt Conditioning
-- Roleplay-based Jailbreaking
-- Prompt Obfuscation
-- Guardrails & Output Filtering
-- Least Privilege for AI Systems
-- Developer Mode Jailbreaking
-- Authority Impersonation
+- AI Guardrails & Filtering
 - AI Assistant Exploitation
-- Role Override Attacks
-- Instruction Replacement Attacks
-- AI Context Leakage
+- Developer Mode Jailbreaking
+- Conversational State Manipulation
+- Prompt Flow Abuse
+- Hidden Prompt Discovery
+- AI Database Enumeration
+- Least Privilege & Deployment Security
 
 ---
 
@@ -86,11 +83,8 @@ The path focuses on understanding:
 - Multi-turn Prompt Shaping
 - Zero-Click AI Exploits
 - Instruction Sandwiching
-- Indirect Injection
-- Prompt Obfuscation
-- Prompt Injection via Context Manipulation
-- AI Data Leakage
 - Hidden Instruction Abuse
+- AI Data Leakage
 
 ---
 
@@ -98,18 +92,14 @@ The path focuses on understanding:
 
 - Prompt Hardening
 - Context Isolation
-- Input Sanitisation
-- Output Validation
+- Input & Output Validation
+- Guardrails
 - AI Monitoring Techniques
 - Secure AI System Design
-- AI Safety Alignment
 - RLHF Security Concepts
 - Defence-in-Depth
-- Guardrails
 - Deployment Controls
 - Least Privilege
-- System Prompt Hardening
-- Input & Output Guardrails
 
 ---
 
