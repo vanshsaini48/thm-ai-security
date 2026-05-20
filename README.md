@@ -1,21 +1,22 @@
 # 🧠 TryHackMe AI Security Path
 
-This repository contains my notes, exercises, walkthroughs, and summaries from the **TryHackMe AI Security Path**.
+This repository contains my notes, walkthroughs, exercises, and summaries from the **TryHackMe AI Security Path**.
 
-The focus of this path is understanding:
-- AI/LLM security concepts
+The path focuses on understanding:
+- AI & LLM security concepts
 - Prompt injection attacks
 - AI threat modelling
 - AI reconnaissance
 - AI attack surfaces
-- Defensive security techniques for AI systems
-- AI jailbreaking techniques
+- Jailbreaking techniques
+- Defensive security for AI systems
 
 ---
 
 # 📂 Rooms Completed
 
 - 🔐 [Prompt Injection](./prompt-injection)
+- 🛡️ [Prompt Defense](./prompt-defense)
 - 🔐 [LLM Security](./llm-security)
 - 🤖 [AI Threat Modelling](./ai-threat-modelling)
 - 🛰️ [AI System Reconnaissance](./ai-system-reconnaissance)
@@ -27,8 +28,10 @@ The focus of this path is understanding:
 # 🎯 Topics Covered
 
 ## LLM & AI Security
+
 - Prompt Injection
 - Indirect Prompt Injection
+- Prompt Defense
 - LLM Security Fundamentals
 - Context Window Security
 - System Prompt Leakage
@@ -39,10 +42,15 @@ The focus of this path is understanding:
 - Multi-turn Jailbreaking
 - DAN (Do Anything Now)
 - Prompt Conditioning
+- Roleplay-based Jailbreaking
+- Prompt Obfuscation
+- Guardrails & Output Filtering
+- Least Privilege for AI Systems
 
 ---
 
 ## Threat Modelling
+
 - STRIDE for AI Systems
 - MITRE ATLAS
 - OWASP LLM Top 10
@@ -52,6 +60,7 @@ The focus of this path is understanding:
 ---
 
 ## AI Reconnaissance
+
 - AI Infrastructure Enumeration
 - MLflow Enumeration
 - AI Service Fingerprinting
@@ -62,32 +71,39 @@ The focus of this path is understanding:
 ---
 
 ## AI Security Risks
+
 - Data Poisoning
 - Model Extraction
 - Prompt Leakage
 - Tool Injection Attacks
 - Multi-turn Prompt Shaping
 - Zero-Click AI Exploits
-- Roleplay-based Jailbreaking
 - Instruction Sandwiching
+- Indirect Injection
 - Prompt Obfuscation
 
 ---
 
 ## Detection & Defense
+
 - Prompt Hardening
 - Context Isolation
 - Input Sanitisation
+- Output Validation
 - AI Monitoring Techniques
 - Secure AI System Design
 - AI Safety Alignment
 - RLHF Security Concepts
+- Defence-in-Depth
+- Guardrails
+- Deployment Controls
 
 ---
 
 # 🛠️ Tools & Technologies
 
 ## Recon & Enumeration
+
 - Nmap
 - FFUF
 - Feroxbuster
@@ -97,6 +113,7 @@ The focus of this path is understanding:
 ---
 
 ## AI Infrastructure
+
 - MLflow
 - Triton Inference Server
 - TorchServe
@@ -107,6 +124,7 @@ The focus of this path is understanding:
 ---
 
 ## Security & Analysis
+
 - Burp Suite
 - MITRE ATLAS
 - Prometheus
@@ -120,11 +138,10 @@ This repository includes:
 - Detailed room notes
 - Task summaries
 - Exercises & answers
-- AI attack examples
 - Prompt injection demonstrations
 - Jailbreaking techniques
 - Reconnaissance techniques
-- Security mitigations
+- AI security mitigations
 - Screenshots for reference
 
 ---
